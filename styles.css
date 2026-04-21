@@ -1,0 +1,169 @@
+/* ===== Base Styling ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/* ===== Navigation ===== */
+nav {
+    background-color: #333;
+    padding: 2vh;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 1vw;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+
+/* ===== Headings ===== */
+h1, h2 {
+    text-align: center;
+    text-shadow: 1px 1px 2px gray;
+    margin-top: 2vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+}
+
+
+/* ===== Container ===== */
+.container {
+    background-color: white;
+    margin: 3vh auto;
+    padding: 2vh;
+    border-radius: 10px;
+    max-width: 65vw;
+    border: 1px solid #ccc;
+}
+
+
+/* ===== Sections (Box Model) ===== */
+section {
+    background-color: white;
+    margin: 2vh auto;
+    padding: 2vh;
+    border-radius: 10px;
+    max-width: 100%; /* عشان يكون داخل container */
+    border: 1px solid #ccc;
+}
+
+
+/* ===== ID Selector ===== */
+#intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
+}
+
+
+/* ===== Class Selector ===== */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0.5vh;
+}
+
+
+/* ===== About Section ===== */
+.about {
+    max-width: 40vw;
+    line-height: 1.6;
+    margin: auto;
+}
+
+
+/* ===== Articles ===== */
+article {
+    background-color: white;
+    margin: 2vh auto;
+    padding: 2vh;
+    border-radius: 10px;
+    max-width: 60vw;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+article h3 {
+    color: #333;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+
+/* ===== Time ===== */
+time {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+
+/* ===== Images ===== */
+img {
+    display: block;
+    margin: 2vh auto;
+    border-radius: 50%;
+    max-width: 30vw;
+}
+
+
+/* ===== Lists Styling ===== */
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 2vh;
+}
+
+ol {
+    list-style-type: upper-roman;
+    margin: 2vh;
+}
+
+dl {
+    margin: 2vh;
+}
+
+
+/* ===== Links ===== */
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 2vh;
+    background-color: #333;
+    color: white;
+}
+blockquote {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
